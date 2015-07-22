@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<servlet>
+		<servlet-name>SessionAdmin</servlet-name>
+		<servlet-class>unsa.edu.SessionAdmin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SessionAdmin</servlet-name>
+		<url-pattern>/sessionadmin</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>Cerrar</servlet-name>
+		<servlet-class>unsa.edu.Cerrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cerrar</servlet-name>
+		<url-pattern>/cerrar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RegistroAlumnos</servlet-name>
+		<servlet-class>unsa.edu.RegistroAlumnos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistroAlumnos</servlet-name>
+		<url-pattern>/registroAlumnos</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EliminarAlumnos</servlet-name>
+		<servlet-class>unsa.edu.EliminarAlumnos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EliminarAlumnos</servlet-name>
+		<url-pattern>/eliminarAlumnos</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ControladorVista</servlet-name>
+		<servlet-class>unsa.edu.ControladorVista</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControladorVista</servlet-name>
+		<url-pattern>/controladorVista</url-pattern>
+	</servlet-mapping>
+
+	
+
+	
+	
+	
+	
+	
+
+	<servlet>
+		<servlet-name>ModificarNombre</servlet-name>
+		<servlet-class>unsa.edu.ModificarNombre</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ModificarNombre</servlet-name>
+		<url-pattern>/modificarNombre</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RelacionAlumnos</servlet-name>
+		<servlet-class>unsa.edu.RelacionAlumnos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RelacionAlumnos</servlet-name>
+		<url-pattern>/relacionAlumnos</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+
+		<servlet-name>RegistroProfesor</servlet-name>
+		<servlet-class>unsa.edu.RegistroProfesor</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+
+		<servlet-name>RegistroProfesor</servlet-name>
+		<url-pattern>/registroProfesor</url-pattern>
+
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EliminarProfesor</servlet-name>
+		<servlet-class>unsa.edu.EliminarProfesor</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+
+		<servlet-name>EliminarProfesor</servlet-name>
+		<url-pattern>/eliminarProfesor</url-pattern>
+
+	</servlet-mapping>
+
+	<servlet>
+
+		<servlet-name>ModificarProfesor</servlet-name>
+		<servlet-class>unsa.edu.ModificarProfesor</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+
+		<servlet-name>ModificarProfesor</servlet-name>
+		<url-pattern>/modificarProfesor</url-pattern>
+
+	</servlet-mapping>
+
+	<servlet>
+
+		<servlet-name>RelacionProfesor</servlet-name>
+		<servlet-class>unsa.edu.RelacionProfesor</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+
+		<servlet-name>RelacionProfesor</servlet-name>
+		<url-pattern>/relacionProfesor</url-pattern>
+
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegistroCurso</servlet-name>
+		<servlet-class>unsa.edu.RegistroCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistroCurso</servlet-name>
+		<url-pattern>/registroCurso</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RelacionCurso</servlet-name>
+		<servlet-class>unsa.edu.RelacionCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RelacionCurso</servlet-name>
+		<url-pattern>/relacionCurso</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EliminarCurso</servlet-name>
+		<servlet-class>unsa.edu.EliminarCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EliminarCurso</servlet-name>
+		<url-pattern>/eliminarCurso</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ModificarCurso</servlet-name>
+		<servlet-class>unsa.edu.ModificarCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ModificarCurso</servlet-name>
+		<url-pattern>/modificarCurso</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SessionMatricula</servlet-name>
+		<servlet-class>unsa.edu.SessionMatricula</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SessionMatricula</servlet-name>
+		<url-pattern>/sessionmatricula</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Matricula</servlet-name>
+		<servlet-class>unsa.edu.Matricula</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Matricula</servlet-name>
+		<url-pattern>/matricula</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>

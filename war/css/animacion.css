@@ -1,0 +1,46 @@
+#portada{
+	clear: both;
+	width: 1260px;
+	height: 700px;
+	margin: 0px auto;
+    overflow: hidden;
+
+}
+#img{
+	width:16000px;
+    height:auto;
+    overflow: hidden;
+    -webkit-animation-name: animaSlide;
+    -moz-animation-name:animaSlide;
+    -webkit-animation-duration: 15s;
+    -moz-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -mozz-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out; 
+    -moz-animation-timing-function: ease-in-out;
+    position:relative;
+    vertical-align: middle;
+}
+@keyframes animaSlide{
+    from{ 
+        left:0px; 
+    }
+    34%{
+        left:0px;
+    }
+    75%{
+        left:-1280px;
+    }
+    120%{
+        left:-1375px;
+    }
+    to{
+    	left:-2655px;
+    }
+}
+#im img{
+    float:left;
+    vertical-align: middle;
+}
